@@ -260,7 +260,7 @@ def register_nodes():
     values = request.get_json()
 
     nodes = values.get('nodes')
-    if node is None:
+    if nodes is None:
         return "Error: Please supply a valid list of nodes", 400
     
     for node in nodes:
