@@ -8,7 +8,7 @@ A simple blockchain written in Python. The main aim is to develop an understandi
 2. Clone this repository using
   ```
     git clone https://github.com/nirmaldalmia/blockchain-demo
-    ```
+  ```
 
 3. Run the server:
     * `$ python blockchain.py -p 5001`
